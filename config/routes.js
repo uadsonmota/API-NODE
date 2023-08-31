@@ -1,6 +1,5 @@
-const express = require('express');
+const express = require('express')
 const routes = express.Router()
-
 
 //valores stardes "nome, idade e data de nascimento"
 let db = [
@@ -10,12 +9,12 @@ let db = [
 ]
 
     //buscar dados
-    app.get('/', (req, res) => {
+    routes.get('/', (req, res) => {
         return res.json(db)
     })
 
     //Inserir dados
-    app.post('/add', (req, res) => {
+    routes.post('/add', (req, res) => {
         const body = req.body
 
         if (!body)
