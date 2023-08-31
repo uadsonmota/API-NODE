@@ -17,9 +17,9 @@ app.use(cors())
 
 //valores stardes "nome e idade"
 let db = [
-    { '1': { nome: 'Uadson', idade: '30'} },
-    { '2': { nome: 'Natalia', idade: '28'} },
-    { '3': { nome: 'Manuella', idade: '2'} },
+    { '1': { nome: 'Uadson Mota', idade: '30'} },
+    { '2': { nome: 'Natalia Mota', idade: '28'} },
+    { '3': { nome: 'Manuella Mota', idade: '2'} },
 ]
 
     //buscar dados
