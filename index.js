@@ -15,11 +15,11 @@ app.use(express.json())
 app.use(cors())
 
 
-//valores stardes "nome e idade"
+//valores stardes "nome, idade e data de nascimento"
 let db = [
-    { '1': { nome: 'Uadson Mota', idade: '30'} },
-    { '2': { nome: 'Natalia Mota', idade: '28'} },
-    { '3': { nome: 'Manuella Mota', idade: '2'} },
+    { '1': { nome: 'Uadson Mota', idade: '30', dt_nacimento: '16/16/1993'} },
+    { '2': { nome: 'Natalia Mota', idade: '28', dt_nacimento: '15/11/1995'} },
+    { '3': { nome: 'Manuella Mota', idade: '2', dt_nacimento: '31/12/2021'} }, 
 ]
 
     //buscar dados
